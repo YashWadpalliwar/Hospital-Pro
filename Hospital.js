@@ -23,28 +23,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Initialize Swiper
 
-var swiper = new Swiper( '.swiper-container.app-screen', {
-    effect: 'coverflow',
+var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
     loop: true,
     autoplaySpeed: 3000,
+    grabCursor: true,
     centeredSlides: true,
-    slidesPerView: 'auto',
+    slidesPerView: "auto",
     autoplay: {
-        delay: 5000,
+        delay: 2000,
         disableOnInteraction: false
     },
-
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
     },
-
-    paginationClickable: true,
-    coverflow: {
-        rotate: 0,
-        stretch: 100,
-        depth: 150,
-        modifier: 1.5,
-        slideShadows: false,
-    }
+    pagination: {
+        el: ".swiper-pagination",
+    },
 });
