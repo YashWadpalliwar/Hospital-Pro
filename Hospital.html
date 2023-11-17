@@ -1,0 +1,1039 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <title>Hospital Management</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- FavIcon title img-->
+  <link rel="icon" type="image/png/jpg" href="./Doctor_images/images/favicon.png">
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="./Hospital.css">
+
+  <!-- CSS Responsive Link -->
+  <link rel="stylesheet" href="./HospitalResp.css">
+
+  <!--remix icons link-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+  <header>
+    <!-- place navbar here -->
+    <nav class="navbar navbar-expand-lg navbar-dark  "
+      style="position: fixed; z-index: 1; width: 100%; background-color:blueviolet;">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./Doctor_images/images/logo.png" alt=""></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="sidebar offcanvas offcanvas-start text-bg-primary fs-3" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <a class="navbar-brand" href="#"><img src="./Doctor_images/images/logo.png" alt=""></a>
+
+            <button type="button" class="btn-close btn-close-dark shadow-none" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+            <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 ">
+              <li class="nav-item">
+                <a class="nav-link " href="#home"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services"><b>Services</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about"><b>About</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#team"><b>Team</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#gallery"><b>Gallery</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#testimonial"><b>Testimonial</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#blog"><b>Blog</b></a>
+              </li>
+              <li class="nav-item mt-3 mt-lg-0">
+                <a class="nav-link " href="#contact"><b>Contact</b></a>
+              </li>
+            </ul>
+            <!-- login and sign up -->
+            <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3 fs-5">
+              <a href="#login" class="text-white text-decoration-none px-3 py-1 rounded-4"
+                style="background-color: #f94ca4;" id="btnn">Login</a>
+              <a href="#signup" class="text-white text-decoration-none px-3 py-1 rounded-4"
+                style="background-color: #f94ca4;" id="btnn">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="heros_wrapper">
+    <div class="container-fluid heros-container">
+      <div class="container">
+        <div class="heros-section p-5">
+          <div class="row align-items-center flex-column-reverse flex-md-row py-5">
+            <div class="col pe-3 heros-text-container text-center text-md-start">
+              <h4 class="fw-bolder text-light">Better Life Though</h4>
+
+              <div class="textimg">
+                <h1 class="fw-bolder text-light text-some">Better Solutions For Your Business</h1>
+              </div>
+
+              <p class="my-3 fs-5 text-light fw-semibold opacity-75">We are team of talented designers making websites
+                with Bootstrap We are team of talented designers making websites
+                with Bootstrap</p>
+
+              <div class="heros-bta py-5 d-flex gap-4">
+                <button class="btn btn-danger btn-lg">Appointment
+                </button>
+
+                <a href="https://youtu.be/X_HLQAr6uxE?si=JCbZmxSKYrsYVNHs" target="_blank"
+                  class="ply text-light d-flex text-decoration-none">
+                  <i class="ri-play-circle-line fs-1 d-flex "></i>
+                  <h5 class="mt-3 ps-1">Watch Video</h5>
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 heros-img-container py-5">
+              <img class="img-fluid heros-img" src="../Devimg/front1.png" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Logo">
+    <div class="container-fluid">
+      <div class="row p-0">
+        <div class="col-lg-2 col-md-2 col-6 d-flex align-items-center justify-content-center">
+          <img class="img-logo" src="./Doctor_images/images/Logo/cls1.png" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img class="img-logo" src="./Doctor_images/images/Logo/cls2.png" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img class="img-logo" src="./Doctor_images/images/Logo/cls3.png" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img class="img-logo" src="./Doctor_images/images/Logo/cls4.png" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img class="img-logo" src="./Doctor_images/images/Logo/cls5.png" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img class="img-logo" src="./Doctor_images/images/Logo/cls6.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="counter_area wrapper">
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <div class="col-6 col-sm-3 single_counter text-center">
+          <div class="counter_inner p-3 p-md-0">
+            <div class="counter_item d-inline-block mb-3">
+              <span id="count1" class="counter fw-bold">10</span>
+              <span class="fw-bold">M</span>
+            </div>
+            <h5>User</h5>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-3 single_counter text-center">
+          <div class="counter_inner p-3 p-md-0">
+            <div class="counter_item d-inline-block mb-3">
+              <span id="count2" class="counter fw-bold">23</span>
+              <span class="fw-bold">K</span>
+            </div>
+            <h5>Download</h5>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-3 single_counter text-center">
+          <div class="counter_inner p-3 p-md-0">
+            <div class="counter_item d-inline-block mb-3">
+              <span id="count3" class="counter fw-bold">9</span>
+              <span class="fw-bold">M</span>
+            </div>
+            <h5>Coustomer</h5>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-3 single_counter text-center">
+          <div class="counter_inner p-3 p-md-0">
+            <div class="counter_item d-inline-block mb-3">
+              <span id="count4" class="counter fw-bold">12</span>
+              <span class="fw-bold">K</span>
+            </div>
+            <h5>Developer</h5>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="Services_wrapper wrapper">
+    <div class="container">
+      <div class="Services-title text-center">
+        <h2><b>Services</b></h2>
+        <p class="text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+          quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
+      </div>
+
+      <div class="row pt-5">
+
+        <div class="col-12 col-md-4 d-flex justify-content-center align-item-center ">
+          <div class="card text-center py-3 m-3">
+            <div class="icon-box">
+              <img src="./Doctor_images/images/top-banner-img/Appointment-icon.png" alt="">
+            </div>
+            <div class="p-5">
+              <h4>Easy Appointment</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, dolores? Lorem ipsum dolor </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 d-flex justify-content-center align-item-center">
+          <div class="card text-center py-3 m-3">
+            <div class="icon-box">
+              <img src="./Doctor_images/images/top-banner-img/Emergency-icon.png" alt="">
+            </div>
+            <div class="p-5">
+              <h4>Emergency Appointment</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, dolores? Lorem ipsum dolor </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 d-flex justify-content-center align-item-center ">
+          <div class="card text-center py-3 m-3">
+            <div class="icon-box">
+              <img src="./Doctor_images/images/top-banner-img/7-Service-icon.png" alt="">
+            </div>
+            <div class="p-5">
+              <h4>24/7 Service</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, dolores? Lorem ipsum dolor </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about_wrapper wrapper" style=" 
+    background-color: rgb(243, 245, 250);">
+    <div class="container">
+      <div class="about-title text-center mb-5 text-capitalize">
+        <h2><b>About Us</b></h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo molestias vero beatae nulla minima repudiandae
+          perspiciatis temporibus pariatur laborum</p>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6">
+
+          <img src="./Doctor_images/images/about/about-banner1.png" alt="" class="img-fluid">
+
+          <div class="img-animate" style="margin-bottom: -50%; position: relative; bottom: 20rem;">
+            <img src="./Doctor_images/images/about/about-img2.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 text-center text-md-start">
+          <h2 class="text-primary">Welcome to a Family</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo molestias vero beatae nulla minima
+            repudiandae perspiciatis temporibus pariatur laborum </p>
+
+          <div class="text-center ms-5 mt-5 gap-3 p-5 card" style="background-color: rgb(243, 245, 250);">
+
+            <div class="about-clinic">
+              <h4>500+</h4>
+              <p>Happy Patients</p>
+            </div>
+
+            <div class="about-clinic">
+              <h4>80+</h4>
+              <p>Qualified Doctors</p>
+            </div>
+
+            <div class="about-clinic">
+              <h4>25+</h4>
+              <p>Happy Patients</p>
+            </div>
+
+            <div class="about-clinic">
+              <h4>55+</h4>
+              <p>Dental Awards</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="banner">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-light py-5">
+            <h2>Call To Action</h2>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+              laborum.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+              laborum.</p>
+          </div>
+          <div class="col p-5">
+            <button class="btn btn-info btn-lg rounded-pill">Call to Action
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Columns-wrapper bg-primary wrapper">
+    <div class="container ">
+      <div class="row">
+        <div class="col-sm-12 text-center text-light mb-5">
+          <h3>MENU OPTION</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mb-4 ">
+          <div class="card p-3">
+            <div class="icon-box">
+              <img src="./Doctor_images/images/services/1.svg" alt="">
+            </div>
+            <div class="p-3">
+              <h4><b>Computer Dentistry</b></h4>
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nostrum eaque, deleniti libero incidunt
+              </p><i class="ri-hospital-fill fs-5"></i>
+              <a href="#" class="text-white text-decoration-none rounded-pill fs-6 p-2 ms-5" id="navb">Get
+                Started</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4 text-dark">
+          <div class="card p-3">
+            <div class="icon-box">
+              <img src="./Doctor_images/images/services/2.svg" alt="">
+            </div>
+            <div class="p-3">
+              <h4><b>Dental Selants</b></h4>
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nostrum eaque, deleniti libero incidunt
+              </p><i class="ri-hospital-fill fs-5"></i>
+              <a href="#" class="text-white text-decoration-none rounded-pill fs-6 p-2 ms-5" id="navb">Get
+                Started</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-5 text-dark">
+          <div class="card p-3">
+            <div class="icon-box">
+              <img src="./Doctor_images/images/services/3.svg" alt="">
+            </div>
+            <div class="p-3">
+              <h4><b>Dental Dictionary</b></h4>
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nostrum eaque, deleniti libero incidunt
+              </p><i class="ri-hospital-fill fs-5"></i>
+              <a href="#" class="text-white text-decoration-none rounded-pill fs-6 p-2 ms-5" id="navb">Get
+                Started</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4 text-dark">
+          <div class="card p-3">
+            <div class="icon-box">
+              <img src="./Doctor_images/images/services/4.svg" alt="">
+            </div>
+            <div class="p-3">
+              <h4><b>Dental Implants</b></h4>
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nostrum eaque, deleniti libero incidunt
+              </p><i class="ri-hospital-fill fs-5"></i>
+              <a href="#" class="text-white text-decoration-none rounded-pill fs-6 p-2 ms-5" id="navb">Get
+                Started</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4 text-dark">
+          <div class="card p-3">
+            <div class="icon-box">
+              <img src="./Doctor_images/images/services/5.svg" alt="">
+            </div>
+            <div class="p-3">
+              <h4><b>Oral Surgery</b></h4>
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nostrum eaque, deleniti libero incidunt
+              </p><i class="ri-hospital-fill fs-5"></i>
+              <a href="#" class="text-white text-decoration-none rounded-pill fs-6 p-2 ms-5" id="navb">Get
+                Started</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4 text-dark">
+          <div class="card p-3">
+            <div class="icon-box">
+              <img src="./Doctor_images/images/services/6.svg" alt="">
+            </div>
+            <div class="p-3">
+              <h4><b>General Dentistry</b></h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nostrum eaque, deleniti libero incidunt
+              </p><i class="ri-hospital-fill fs-5"></i>
+              <a href="#" class="text-white text-decoration-none rounded-pill fs-6 p-2 ms-5" id="navb">Get
+                Started</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="Team_wrapper wrapper">
+    <div class="container">
+      <div class="Team-title text-center mb-5">
+        <h2><b>Our Dentists</b></h2>
+        <p class="text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+          quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4 col-sm-6">
+          <div class="card text-center py-3 m-3 rounded-3">
+            <div class="team-img">
+              <img src="./Doctor_images/images/team/team1.png" class="img-fluid">
+            </div>
+            <div class="mt-3">
+              <h5>Darry Milin</h5>
+              <p>Oral Surgeon</p>
+              <ul class="Social_card gap-3">
+                <li><a href="#"><i class="ri-facebook-circle-fill"></i></a></li>
+                <li><a href="#"><i class="ri-twitter-x-fill"></i></a></li>
+                <li><a href="#"><i class="ri-google-fill"></i></a></li>
+                <li><a href="#"><i class="ri-whatsapp-fill"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-sm-6 ">
+          <div class="card text-center py-3 m-3 rounded-3">
+            <div class="team-img">
+              <img src="./Doctor_images/images/team/team2.png" class="img-fluid">
+            </div>
+            <div class="mt-3">
+              <h5>Darry Milin</h5>
+              <p>Oral Surgeon</p>
+              <ul class="Social_card gap-3">
+                <li><a href="#"><i class="ri-facebook-circle-fill"></i></a></li>
+                <li><a href="#"><i class="ri-twitter-x-fill"></i></a></li>
+                <li><a href="#"><i class="ri-google-fill"></i></a></li>
+                <li><a href="#"><i class="ri-whatsapp-fill"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-sm-6 ">
+          <div class="card text-center py-3 m-3 rounded-3">
+            <div class="team-img">
+              <img src="./Doctor_images/images/team/team3.png" class="img-fluid">
+            </div>
+            <div class="mt-3">
+              <h5>Darry Milin</h5>
+              <p>Oral Surgeon</p>
+              <ul class="Social_card gap-3">
+                <li><a href="#"><i class="ri-facebook-circle-fill"></i></a></li>
+                <li><a href="#"><i class="ri-twitter-x-fill"></i></a></li>
+                <li><a href="#"><i class="ri-google-fill"></i></a></li>
+                <li><a href="#"><i class="ri-whatsapp-fill"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="Gallery_wrapper wrapper ">
+    <div class="container">
+      <div class="Gallery-title text-center mb-5">
+        <h3><b>Our Gallery</b></h3>
+      </div>
+      <div class="row">
+        <div class="col-md-4  col-sm-6 mb-5">
+          <img src="./Doctor_images/images/gallery/1.jpg" alt="" class="w-100 h-100">
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-5">
+          <img src="./Doctor_images/images/gallery/2.jpg" alt="" class="w-100 h-100">
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-5">
+          <img src="./Doctor_images/images/gallery/3.jpg" alt="" class="w-100 h-100">
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-5">
+          <img src="./Doctor_images/images/gallery/5.jpg" alt="" class="w-100 h-100">
+        </div>
+
+        <div class="col-md-8 col-sm-6 mb-5">
+          <img src="./Doctor_images/images/gallery/4.jpg" alt="" class="w-100 h-100">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonial" class="Testimonial_wrapper wrapper bg-danger">
+    <div class="container">
+      <div class="Testimonial-title text-center mb-5">
+        <h3 class="text-light"><b>Testimonial</b></h3>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-xl-3 col-md-4 col-sm-6">
+          <div class="card shadow text-center p-3">
+            <img src="./Doctor_images/images/testimonial/client1.png" class="img-fluid" alt="">
+            <h4 class="pt-4 mb-0">Aliceano Colby</h4>
+            <p>CEO of prime IT</p>
+          </div>
+        </div>
+        <div class="col-xl-9 col-md-8 col-sm-6 ps-md-4 pt-sm-0 pt-4 text-light">
+          <h4><b>Awesome Work</b></h4>
+          <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam rerum sequi earum natus, explicabo
+              placeat minima exercitationem est totam, nam nihil dolorem quod! Eos excepturi dignissimos perspiciatis,
+              maxime animi enim.</i></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="p-5">
+    <div class="container">
+
+      <div class="row py-5">
+
+        <div class="col-lg-6 d-flex align-items-center">
+          <img src="./Doctor_images/images/skills.png" class="img-fluid" alt="">
+        </div>
+
+        <div class="col-lg-6 pt-4 pt-lg-0 content" style="color: #37517e;">
+          <h2><b>Voluptatem dignissimos provident quasi corporis voluptates</b></h2>
+
+          <p class="fst-italic">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua.
+          </p>
+
+          <div class="skills-content">
+
+            <div class="p1">
+              <div class="d-flex justify-content-between">
+                <span>HTML</span> <span>100%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 100%;"></div>
+              </div>
+            </div>
+
+            <div class="p2">
+              <div class="d-flex justify-content-between">
+                <span>CSS</span> <span>60%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="p3">
+              <div class="d-flex justify-content-between">
+                <span>JavaScript</span> <span>75%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;"></div>
+              </div>
+            </div>
+
+            <div class="p4">
+              <div class="d-flex justify-content-between">
+                <span>Bootstrap</span> <span>90%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="slider">
+    <div class="container ">
+      <div class="row align-items-center flex-column-reverse flex-md-row p-lg-5">
+
+        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center">
+
+          <div class="content">
+
+            <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+
+            <div class="accordion accordion-flush pb-5" id="accordionFlushExample">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <span class="fs-5 pe-3" style="color: #5cc0ff;"><b>01</b></span> <span>Non consectetur a erat nam at
+                      lectus urna duis?</span>
+                  </button>
+                </h2>
+
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat
+                    lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
+                    purus non.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item ">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <span class="fs-5 pe-3" style="color: #5cc0ff;"><b>02</b></span> Feugiat scelerisque varius morbi
+                    enim nunc?
+                  </button>
+                </h2>
+
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
+                    interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
+                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa
+                    tincidunt dui.</div>
+                </div>
+
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <span class="fs-5 pe-3" style="color: #5cc0ff;"><b>03</b></span> Dolor sit amet consectetur
+                    adipiscing elit?
+                  </button>
+                </h2>
+
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
+                    Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
+                    tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at
+                    elementum eu facilisis sed odio morbi quis</div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col">
+          <img class="img-fluid h-100 " src="./Doctor_images/images/about/hospital-building.webp" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="banner2_wrapper wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 col-md-8 col-sm-6 ps-md-4 pt-sm-0 text-light">
+          <h4><b>Request your Appointment and <br> Start your Smile Makeover!</b></h4>
+          <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit.Veniam rerum <br> sequi earum natus, explicabo</i>
+          </p>
+          <div class="mt-5">
+            <a href="#" class="fs-6 "><b>Request Appointment</b></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="blog_wrapper wrapper">
+    <div class="container">
+      <div class="blog-title text-center mb-5">
+        <h3 class="text-black">Latest Blog</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card p-0 border-0 rounded-0">
+            <img src="./Doctor_images/images/blog/1.jpg" alt="">
+            <div class="blog-content">
+              <h5 class="text-white mb-4">Dental Insurance with Benefits</h5>
+              <h6 class="text-white">By Admin - February 18, 2018</h6>
+              <p class="mt-2 text-white">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Id, perspiciatis?</p>
+              <a href="#" class="main-btn mt-2">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card p-0 border-0 rounded-0">
+            <img src="./Doctor_images/images/blog/2.jpg" alt="">
+            <div class="blog-content">
+              <h5 class="text-white mb-4">Dental Insurance with Benefits</h5>
+              <h6 class="text-white">By Admin - February 18, 2018</h6>
+              <p class="mt-2 text-white">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Id, perspiciatis?</p>
+              <a href="#" class="main-btn mt-2">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card p-0 border-0 rounded-0">
+            <img src="./Doctor_images/images/blog/3.jpg" alt="">
+            <div class="blog-content">
+              <h5 class="text-white mb-4">Dental Insurance with Benefits</h5>
+              <h6 class="text-white">By Admin - February 18, 2018</h6>
+              <p class="mt-2 text-white">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Id, perspiciatis?</p>
+              <a href="#" class="main-btn mt-2">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="screenshort_wrapper">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="section_heading text-center">
+            <h2 class="section_title">App screenshort</h2>
+            <p class="section_sub_title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, aliquid.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-container app-screen">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="./Doctor_images/images/screenshots/1.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="./Doctor_images/images/screenshots/2.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="./Doctor_images/images/screenshots/3.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="./Doctor_images/images/screenshots/4.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slider-image">
+            <img src="./Doctor_images/images/screenshots/5.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+
+    </div>
+  </section>
+
+  <section class="price_wrapper wrapper">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="price_heading text-center">
+            <h2>Approdable Packages</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, modi?adipisicing elit. Ab, modi?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5 ">
+
+        <div class="col-mb-6 col-sm-6 col-lg-3 mb">
+          <div class="single_price">
+            <div class="month">
+              Month
+            </div>
+            <h5>Premium</h5>
+            <div class="icon_pad">
+              <div class="icon_circle">
+                <span><i class="ri-award-fill"></i></span>
+              </div>
+            </div>
+            <div class="doler">
+              <h2><span class="doler-sine">$</span>35</h2>
+            </div>
+            <ul class="offer">
+              <br>
+              <li>5G Linux Web space</li>
+              <li>5 Mysql databases</li>
+              <li>24/7 tech support</li>
+              <li>Daily backups</li>
+            </ul>
+            <a href="#" class="btn btn-bordered mt-4">Learn More</a>
+          </div>
+        </div>
+
+        <div class="col-mb-6 col-lg-3">
+          <div class="single_price">
+            <div class="month">
+              Month
+            </div>
+            <h5>Basic</h5>
+            <div class="icon_pad">
+              <div class="icon_circle">
+                <span><i class="ri-clipboard-line"></i></span>
+              </div>
+            </div>
+            <div class="doler">
+              <h2><span class="doler-sine">$</span>55</h2>
+            </div>
+            <ul class="offer">
+              <br>
+              <li>5G Linux Web space</li>
+              <li>5 Mysql databases</li>
+              <li>24/7 tech support</li>
+              <li>Daily backups</li>
+            </ul>
+            <a href="#" class="btn btn-bordered mt-4">Learn More</a>
+          </div>
+        </div>
+
+        <div class="col-mb-6 col-lg-3">
+          <div class="single_price active_price">
+            <div class="month">
+              Month
+            </div>
+            <h5 class="text-light">Addict</h5>
+            <div class="icon_pad">
+              <div class="icon_circle">
+                <span><i class="ri-vip-crown-line"></i></span>
+              </div>
+            </div>
+            <div class="doler">
+              <h2><span class="doler-sine">$</span>75</h2>
+            </div>
+            <ul class="offer">
+              <br>
+              <li>5G Linux Web space</li>
+              <li>5 Mysql databases</li>
+              <li>24/7 tech support</li>
+              <li>Daily backups</li>
+            </ul>
+            <a href="#" class="btn btn-bordered mt-4">Learn More</a>
+          </div>
+        </div>
+
+        <div class="col-mb-6 col-lg-3">
+          <div class="single_price">
+            <div class="month">
+              Month
+            </div>
+            <h5>Business</h5>
+            <div class="icon_pad">
+              <div class="icon_circle">
+                <span><i class="ri-gift-line"></i></span>
+              </div>
+            </div>
+            <div class="doler">
+              <h2><span class="doler-sine">$</span>85</h2>
+            </div>
+            <ul class="offer">
+              <br>
+              <li>5G Linux Web space</li>
+              <li>5 Mysql databases</li>
+              <li>24/7 tech support</li>
+              <li>Daily backups</li>
+            </ul>
+            <a href="#" class="btn btn-bordered mt-4">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<!-- 
+  <div id="scrollUp">
+    <a href="#home"><span><i class="ri-arrow-up-circle-fill"></i></span></a>
+  </div>
+ -->
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+  <!-- place footer here -->
+  <section id="contact" class="footer_wrapper wrapper text-bg-primary">
+    <div class="container pb-3">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4 mt-4">
+          <h5 class="mb-5">Clinic Location</h5>
+          <p class="ps-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, minus!</p>
+
+          <div class="contact-info">
+            <ul class="list-unstyled ">
+              <li><a href="#"><i class="fa fa-home me-3"></i>No. 96, South City, London</a></li>
+              <li><a href="#"><i class="fa fa-phone me-3"></i>+1 222 3333</a></li>
+              <li><a href="#"><i class="fa fa-envelope me-3"></i>info@example.com</a></li>
+
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mt-4">
+          <h5 class="mb-5">More Link</h5>
+          <ul class="link-widget p-0">
+            <li><a href="#"><i class="fa-sharp fa-light fa-greater-than"></i> About Us</a></li>
+            <li><a href="#"><i class="fa-sharp fa-light fa-greater-than"></i> Our Office</a></li>
+            <li><a href="#"><i class="fa-sharp fa-light fa-greater-than"></i> Delivery</a></li>
+            <li><a href="#"><i class="fa-sharp fa-light fa-greater-than"></i> Our Store</a></li>
+            <li><a href="#"><i class="fa-sharp fa-light fa-greater-than"></i> Guarantee</a></li>
+            <li><a href="#"><i class="fa-sharp fa-light fa-greater-than"></i> Buy Gift Card</a></li>
+            <li><a href="#"><i class="fa-sharp fa-light fa-greater-than"></i> Return Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mt-4">
+          <h5 class="mb-5">More Link</h5>
+          <ul class="link-widget p-0">
+            <li><a href="#"><i class="fa-sharp fa-light fa-greater-than"></i>Web Design</a></li>
+            <li><a href="#"><i class="fa-sharp fa-light fa-greater-than"></i> Web Development</a></li>
+            <li><a href="#"><i class="fa-sharp fa-light fa-greater-than"></i> Product Marketing</a></li>
+            <li><a href="#"><i class="fa-sharp fa-light fa-greater-than"></i> Product Management</a></li>
+            <li><a href="#"><i class="fa-sharp fa-light fa-greater-than"></i> Guarantee</a></li>
+            <li><a href="#"><i class="fa-sharp fa-light fa-greater-than"></i> Graphic Design</a></li>
+            <li><a href="#"><i class="fa-sharp fa-light fa-greater-than"></i> Return Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mt-4">
+          <h5 class="mb-5">NewsLetter</h5>
+          <div class="form-group mb-4">
+            <input type="email" class="form-control bg-transparent text-light" placeholder="Enter your Email Here"
+              required>
+
+            <button type="submit" class="btn btn-primary border border-dark my-3">Subscribe</button>
+
+          </div>
+
+          <h5>Stay Connected</h5>
+          <ul class="social-network d-flex align-items-center p-0 gap-3">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid copyright-section">
+      <h5><i class="ri-copyright-line"></i> Yash Hospitals HTML CSS and Bootstrap Hospital project ✅ All Right Reserved
+      </h5>
+    </div>
+
+  </section>
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+
+  <!-- Custom Js Link -->
+  <script src="Hospital.js"></script>
+
+</body>
+
+</html>
