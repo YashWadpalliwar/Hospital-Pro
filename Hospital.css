@@ -92,7 +92,8 @@ body {
 }
 
 .heros_wrapper {
-    background-image: url(./Doctor_images/images/top-banner-img/Top-banner.jpg);
+    background-image: url(./Doctor_images/images/Banner12.png);
+    padding: 2.5rem;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
